@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-main {
+.main_projekt {
   background-image: url(../img/baggrund_4.jpg);
   background-position: center;
   background-attachment: fixed;
@@ -12,6 +12,13 @@ main {
   background-size: cover;
   width: 100%;
   height: auto;
+}
+.pap {
+  background-image: url(/Img/pap_knap.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
 }
 
 h1 {
@@ -31,7 +38,7 @@ h2 {
 img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .tekst {
@@ -135,8 +142,18 @@ img {
   }
 }
 
-/*****Projekter1*****/
-.projekter1 {
-  display: block;
-  padding: 10px;
+/*****Projekt sider*****/
+@media screen and (max-width: 800px) {
+  .projekter {
+    display: block;
+    padding: 30px;
+  }
+
+  .projekt1_img1 {
+    max-width: 500px;
+  }
+  .projekt1_img2 {
+    max-width: 270px;
+  }
 }
+/*****Projekter2*****/

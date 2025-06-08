@@ -25,9 +25,9 @@
         </div>
         <nav>
             <ul class="menu">
-                <li><a href="index.html">Forside</a></li>
-                <li><a href="projekter.html">Projekter</a></li>
-                <li><a href="om_mig.html">Om mig</a></li>
+                <li class="pap"><a href="index.html">Forside</a></li>
+                <li class="pap"><a href="projekter.html">Projekter</a></li>
+                <li class="pap"><a href="om_mig.html">Om mig</a></li>
             </ul>
             <div class="burger">
                 <div class="line"></div>
@@ -36,13 +36,16 @@
             </div>
         </nav>
     </header>
-    <main>
-
-        <div class="projekt" id="projekt2">
+    <main class="main_projekt">
+        <div class="projekt" id="projekt1">
             <h1>Projekter:</h1>
-            <section class="grid_1-1">
+            <div class="grid_1-1">
+                <h2>Projekt 1</h2>
+            </div>
+            <section class="grid_1-1 projekter">
+
                 <div class="tekst">
-                    <h2>Projekt 2</h2>
+
                     <h3 class="startafsnit">Formålet med opgaven</h3>
                     <p class="tekstafsnit"> - er at jeg skal udvikle mit eget website fra bunden, med fokus på
                         mobil-first design og derefter tilpasse layoutet til
@@ -51,11 +54,11 @@
                     </p>
 
                 </div>
-                <div id="layoutdiagram"><img src="/Img/projekt1_layoutdiagram.png"
+                <div class="projekter projekt1_img1" id="layoutdiagram"><img src="/Img/projekt1_layoutdiagram.png"
                         alt="billede af layoutdiagram fra undervisning">
                 </div>
             </section>
-            <section class="grid_1-1">
+            <section class="grid_1-1 projekter">
                 <div class="tekst">
                     <h3 class="startafsnit">Min process</h3>
                     <p class="tekstafsnit"> - startede med at jeg kode mobilversionen ud fra det udleverede indhold,
@@ -66,15 +69,16 @@
                         skabe et visuelt sammenhængende og responsivt site. </p>
 
                 </div>
-                <div class="grid_1-1"><img src="img/projekt1_wireframe.png" alt="billede af wireframe fra undervisning">
+                <div class="grid_1-1 projekter projekt1_img2"><img src="img/projekt1_wireframe.png"
+                        alt="billede af wireframe fra undervisning">
                 </div>
             </section>
 
-            <div class="grid_1-1"><img src="img/projekt1_mobilsite.png" alt="billede fra undervisning">
+            <div class="grid_1-1 projekter"><img src="img/projekt1_mobilsite.png" alt="billede fra undervisning">
             </div>
 
-            <section class="grid_1-1">
-                <div class="tekst">
+            <section class="grid_1-1 projekter">
+                <div class="tekst ">
                     <h3 class="startafsnit">Gennem denne opgave </h3>
                     <p class="tekstafsnit"> - har jeg lært at arbejde mobile-first, bruge semantisk HTML5, anvende CSS
                         Grid og media queries, samt
@@ -84,11 +88,12 @@
                         præcist. </p>
 
                 </div>
-                <div class="grid_1-1"><a href="https://domainexpansion.dk/kea/02_web/01_website/website/"> <img
-                            src="Img/projekt1_web.png" alt="projekt1 udsnit"></a></div>
+                <div class="grid_1-1 projekter"><a href="https://domainexpansion.dk/kea/02_web/01_website/website/">
+                        <img src="Img/projekt1_web.png" alt="projekt1 udsnit"></a></div>
             </section>
 
         </div>
+
     </main>
     <footer></footer>
     <script src="menu/menu.js"></script>
