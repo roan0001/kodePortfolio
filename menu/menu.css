@@ -98,6 +98,7 @@ nav {
 
   nav.active .menu li {
     margin: 10px 20px;
+    max-width: 280px;
   }
 
   nav.active .menu a {

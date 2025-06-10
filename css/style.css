@@ -75,6 +75,7 @@ img {
     grid-template-columns: 1fr 1fr;
     margin: 15px;
     padding-left: 50px;
+    align-items: start;
   }
 }
 
@@ -101,6 +102,7 @@ img {
   }
   .grid_navn {
     grid-column: 2/3;
+    text-shadow: 5px 5px 5px rgba(150, 150, 150, 0.835);
   }
 }
 .lodret {
@@ -153,6 +155,12 @@ img {
   .om-mig_img2 {
     max-width: 350px;
     padding: 10px;
+  }
+  .om-mig_tekst1 {
+    padding: 20px;
+  }
+  .om-mig_tekst2 {
+    padding: 20px;
   }
 }
 /***** Projekter oversigt siden*****/
