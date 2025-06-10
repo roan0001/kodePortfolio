@@ -4,14 +4,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   background-color: #cda54d83;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo img {
-  width: 75px;
-  height: 75px;
+  width: 120px;
+  height: auto;
+  padding-left: 15px;
 }
 
 nav {
@@ -25,12 +25,7 @@ nav {
   margin: 0;
   padding: 0;
 }
-.pap {
-  background-image: url(/Img/pap_knap.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 .menu li {
   margin-right: 20px;
 }
@@ -45,7 +40,7 @@ nav {
   color: #333333;
   text-decoration: none;
   transition: color 0.3s;
-  text-align: end;
+  text-align: center;
 }
 
 .menu a:hover {

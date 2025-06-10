@@ -1,7 +1,0 @@
-.grid_1-1 {
-  display: grid;
-  gap: 8px;
-  grid-template-columns: 1fr 1fr;
-  margin: 15px;
-  padding-left: 50px;
-}
