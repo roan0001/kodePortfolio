@@ -3,12 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+.main_forside {
+  background-image: url(../img/baggrund_1.jpg);
+  background-position: center;
+  background-attachment: fixed;
 
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
 .main_projekt {
+  background-image: url(../img/baggrund_3.jpg);
+  background-position: center;
+  background-attachment: fixed;
+
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.main_om-mig {
   background-image: url(../img/baggrund_4.jpg);
   background-position: center;
   background-attachment: fixed;
-  position: absolute;
+
   background-size: cover;
   width: 100%;
   height: auto;
@@ -27,6 +44,7 @@ h1 {
   font-size: 90px;
   -webkit-text-stroke-color: white;
   -webkit-text-stroke-width: 1px;
+  text-shadow: 5px 5px 5px rgba(150, 150, 150, 0.835);
 }
 h2 {
   text-align: center;
@@ -38,9 +56,11 @@ h2 {
 img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
-
+.billede {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.462), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .tekst {
   padding: 15px;
   background-color: #dac1a9;
@@ -96,7 +116,46 @@ img {
   font-size: 60px;
 }
 
-/***** Projekter*****/
+/***** Om mig *****/
+.om-mig_img1 {
+  padding: 30px;
+}
+@media screen and (min-width: 800px) {
+  .grid_om-mig {
+    display: grid;
+    grid-template-columns: 0.3fr 2.3fr 2fr 0.2fr;
+    grid-template-rows: 0.5fr 1.2fr 1.3fr;
+
+    grid-auto-flow: row;
+  }
+  .om-mig_tekst1 {
+    grid-area: 2/2/3/3;
+  }
+  .om-mig_tekst2 {
+    grid-area: 3/3/4/4;
+  }
+  .om-mig_img1 {
+    grid-area: 2/3/3/4;
+  }
+
+  .om-mig_img2 {
+    grid-area: 3/2/4/2;
+  }
+  .om-mig_img2 {
+    max-height: 300px;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .om-mig_img1 {
+    max-width: 430px;
+  }
+  .om-mig_img2 {
+    max-width: 350px;
+    padding: 10px;
+  }
+}
+/***** Projekter oversigt siden*****/
 .grid_overlap {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
@@ -105,8 +164,8 @@ img {
 }
 
 .greenbox {
-  height: 100%;
   width: 100%;
+  aspect-ratio: 1/1;
   background-color: #2a5923;
   grid-column: 1/3;
   grid-row: 1/3;
@@ -141,19 +200,75 @@ img {
     grid-row: 4/6;
   }
 }
+@media screen and (max-width: 800px) {
+  .projekt_mobil {
+    margin: auto;
+    max-width: 350px;
+  }
+}
 
-/*****Projekt sider*****/
+/*****Projekt siderne 1,2,3,4 *****/
+.web_link {
+  border: solid white 5px;
+  border-style: outset;
+}
 @media screen and (max-width: 800px) {
   .projekter {
     display: block;
     padding: 30px;
+    margin: auto;
   }
 
+  /*****Projekter1*****/
   .projekt1_img1 {
     max-width: 500px;
   }
   .projekt1_img2 {
     max-width: 270px;
   }
+  .projekt1_img3 {
+    max-width: 500px;
+  }
+  .projekt1_img4 {
+    max-width: 270px;
+  }
+  /*****Projekter2*****/
+  .projekt2_img1 {
+    max-width: 500px;
+  }
+  .projekt2_img2 {
+    max-width: 350px;
+  }
+  .projekt2_img3 {
+    max-width: 500px;
+  }
+  .projekt2_img4 {
+    max-width: 270px;
+  }
+  /*****Projekter3*****/
+  .projekt3_img1 {
+    max-width: 500px;
+  }
+  .projekt3_img2 {
+    max-width: 450px;
+  }
+  .projekt3_img3 {
+    max-width: 340px;
+  }
+  .projekt3_img4 {
+    max-width: 270px;
+  }
+  /*****Projekter4*****/
+  .projekt4_img1 {
+    max-width: 500px;
+  }
+  .projekt4_img2 {
+    max-width: 270px;
+  }
+  .projekt4_img3 {
+    max-width: 500px;
+  }
+  .projekt4_img4 {
+    max-width: 270px;
+  }
 }
-/*****Projekter2*****/
