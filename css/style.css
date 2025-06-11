@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .main_forside {
-  background-image: url(../img/baggrund_1.jpg);
+  background-image: url(../Img/baggrund_1.jpg);
   background-position: center;
   background-attachment: fixed;
 
@@ -13,7 +13,7 @@
   height: auto;
 }
 .main_projekt {
-  background-image: url(../img/baggrund_3.jpg);
+  background-image: url(../Img/baggrund_3.jpg);
   background-position: center;
   background-attachment: fixed;
 
@@ -22,7 +22,7 @@
   height: auto;
 }
 .main_om-mig {
-  background-image: url(../img/baggrund_4.jpg);
+  background-image: url(../Img/baggrund_4.jpg);
   background-position: center;
   background-attachment: fixed;
 
