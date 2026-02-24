@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-.main_forside {
+
+/******FORSIDE BAGGRUND****/
+/* .main_forside {
   background-image: url(../Img/baggrund_1.webp);
   background-position: center;
   background-attachment: fixed;
@@ -11,8 +13,10 @@
   background-size: cover;
   width: 100%;
   height: auto;
-}
-.main_projekt {
+} */
+
+/*****PROJEKT SIDE BAGGRUND*****/
+/* .main_projekt {
   background-image: url(../Img/baggrund_3.jpg);
   background-position: center;
   background-attachment: fixed;
@@ -20,8 +24,10 @@
   background-size: cover;
   width: 100%;
   height: auto;
-}
-.main_om-mig {
+} */
+
+/*******OM MIG BAGGRUND******/
+/* .main_om-mig {
   background-image: url(../Img/baggrund_4.jpg);
   background-position: center;
   background-attachment: fixed;
@@ -29,7 +35,9 @@
   background-size: cover;
   width: 100%;
   height: auto;
-}
+} */
+
+/***** MENU KNAPPER*****/
 .pap {
   background-image: url(../Img/pap_knap.webp);
   background-position: center;
@@ -59,7 +67,9 @@ img {
   height: auto;
 }
 .billede {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.462), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.462),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .tekst {
   padding: 15px;
@@ -177,11 +187,18 @@ img {
   background-color: #2a5923;
   grid-column: 1/3;
   grid-row: 1/3;
+  box-shadow:
+    0 10px 8px 0 rgba(0, 0, 0, 0.462),
+    0 10px 20px 0 rgba(0, 0, 0, 0.462);
 }
 
 .overlap_img {
   grid-column: 2/4;
   grid-row: 2/4;
+
+  box-shadow:
+    0 10px 8px 0 rgba(0, 0, 0, 0.462),
+    0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media screen and (min-width: 800px) {
