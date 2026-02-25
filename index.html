@@ -26,9 +26,9 @@
         </div>
         <nav>
             <ul class="menu">
-                <li class="pap"><a href="index.html">Forside</a></li>
-                <li class="pap"><a href="projekter.html">Projekter</a></li>
-                <li class="pap"><a href="om_mig.html">Om mig</a></li>
+                <li class="pap"><a href="#forside">Forside</a></li>
+                <li class="pap"><a href="#projekter">Projekter</a></li>
+                <li class="pap"><a href="#om_mig">Om mig</a></li>
             </ul>
             <div class="burger">
                 <div class="line"></div>
@@ -37,37 +37,118 @@
             </div>
         </nav>
     </header>
-    <main class="main_forside">
+    <main>
+        <div class="main_forside" id="forside">
+            <h1>Portfolio</h1>
+            <h2>multimediedesign 2025</h2>
+            <div class="grid_forside">
 
-        <h1>Portfolio</h1>
-        <h2>multimediedesign 2025</h2>
-        <div class="grid_forside">
+                <div class="grid_overlap forside drawing">
+                    <div class="greenbox"></div>
+                    <img class="overlap_img" src="Img/drawing.webp" alt="min tegning">
 
-            <div class="grid_overlap forside drawing">
-                <div class="greenbox"></div>
-                <img class="overlap_img" src="Img/drawing.webp" alt="min tegning">
+                </div>
+                <div class="navn">
+                    <div class="grid_navn">
+                        <div class="lodret tekst1">
+                            Rosa
+                        </div>
+                        <div class="lodret tekst2">
+                            Andersen
+                        </div>
 
-            </div>
-            <div class="navn">
-                <div class="grid_navn">
-                    <div class="lodret tekst1">
-                        Rosa
-                    </div>
-                    <div class="lodret tekst2">
-                        Andersen
                     </div>
 
                 </div>
 
+
+
+
+            </div>
+
+            <div class="main_projekt">
+
+                <h1>Projekter:</h1>
+                <div class="grid_projekter">
+                    <div class="grid_overlap projekt1 projekt_mobil">
+                        <div class="greenbox"></div>
+                        <a class="overlap_img" href="projekter/projekt1.html"><img src="Img/projekt1_web.png"
+                                alt="projekt 1"></a>
+                    </div>
+                    <div class="grid_overlap projekt2 projekt_mobil">
+                        <div class="greenbox"></div>
+                        <a class="overlap_img" href="projekter/projekt2.html"><img src="Img/projekt2_web.png"
+                                alt="projekt 2"></a>
+                    </div>
+                    <div class="grid_overlap projekt3 projekt_mobil">
+                        <div class="greenbox"></div>
+                        <a class="overlap_img" href="projekter/projekt3.html"><img src="Img/projekt3_web.png"
+                                alt="projekt 3">
+                        </a>
+                    </div>
+                    <div class="grid_overlap projekt4 projekt_mobil">
+                        <div class="greenbox"></div>
+                        <a class="overlap_img" href="projekter/projekt4.html"><img src="Img/projekt4_web.png"
+                                alt="projekt 4"></a>
+                    </div>
+                </div>
             </div>
 
 
 
 
+
+            <div class="main_om-mig">
+
+
+
+                <h1>Om mig:</h1>
+                <section class="grid_om-mig">
+
+                    <div class="om-mig_tekst1">
+                        <div class="tekst">
+
+                            <h3 class="startafsnit">Lidt om mig</h3>
+                            <p class="tekstafsnit"> Jeg er studerende på multimediedesigneruddannelsen og har en særlig
+                                passion
+                                for illustration og det kreative
+                                tegnearbejde. Jeg elsker at forvandle idéer til visuelle udtryk – hvad enten det er
+                                digitale
+                                illustrationer,
+                                karakterdesign eller grafiske elementer til web og print. Gennem min uddannelse har jeg
+                                også
+                                fået erfaring med
+                                webdesign, UX/UI og visuel kommunikation, men det er i tegningen og illustrationens
+                                verden,
+                                jeg
+                                virkelig trives og
+                                finder inspiration.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="  om-mig_img2"><img class="billede" src="Img/portfolio_kompetencer.png"
+                            alt="mine kompetencer">
+                    </div>
+                    <div class="om-mig_tekst2">
+                        <div class="tekst">
+                            <h2>Info</h2>
+                            <p class="tekstafsnit">
+                                Navn: Rosa Cecilie Andersen
+                                Mail: rosa.cecilie@gmail.com
+                                Nummer: +45 30225567
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                    <div class=" om-mig_img1"><img class="billede" src="Img/portfolio_me.jpeg" alt="billede af mig">
+                    </div>
+                </section>
+            </div>
         </div>
-
-        <div class="main_projekt">
-
+        <div class="main_projekt" id="projekter">
             <h1>Projekter:</h1>
             <div class="grid_projekter">
                 <div class="grid_overlap projekt1 projekt_mobil">
@@ -93,12 +174,7 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-        <div class="main_om-mig">
+        <div class="main_om-mig" id="om_mig">
 
 
 
