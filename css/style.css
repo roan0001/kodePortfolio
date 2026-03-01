@@ -33,7 +33,7 @@ h2 {
 }
 img {
   display: block;
-  width: 100%;
+  width: 118%;
   height: auto;
 }
 .billede {
@@ -58,6 +58,26 @@ img {
     align-items: start;
   }
 }
+/***** BAGGRUND *****/
+main {
+  background-color: #f4ebd7;
+  background-attachment: fixed;
+}
+.main_forside {
+  background-image: url(../Img/transseaweed.png);
+  background-attachment: fixed;
+}
+
+.main_projekt4 {
+  background-image: url(../Img/skytrans1.png);
+  background-attachment: fixed;
+}
+
+/*******VIDEO BAGGRUND box 1*****/
+video {
+  max-height: 122%;
+  max-width: 220%;
+}
 
 /*****Forside*****/
 
@@ -65,7 +85,7 @@ img {
   .grid_forside {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 20px;
   }
   .forside {
